@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    background-image: url(back.png);
+}
+h1{
+    color: aliceblue;
+}
+
+/* Product Grid */
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Square aspect ratio */
+    object-fit: cover;
+}
+
+/* Cart Table */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Cart Total */
+#cartTotal {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Cart Images */
+.table img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Logo Image */
+.logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+button:focus {
+    outline: 2px solid #a40f5a;
+    outline-offset: 2px;
+}
+
+button:hover {
+    background-color: #a40f5a;
+}
+
+button {
+    color: aliceblue;
+    background-color: #d01c76;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.scnd button{
+    
+    background-color: #646464;
+}
